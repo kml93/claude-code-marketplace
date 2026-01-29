@@ -1,13 +1,20 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "jackydanielsky",
   "owner": {
     "name": "Jacky Daniel's"
   },
   "plugins": [
     {
-      "name": "chrome-devtools",
+      "name": "Chrome-DevTools",
+      "description": "MCP server for Chrome DevTools",
       "source": "./plugins/chrome-devtools",
-      "description": "Chrome DevTools MCP Server - Browser automation and debugging tools"
+      "version": "0.15.0",
+      "author": {
+        "name": "Google LLC"
+      },
+      "category": "development",
+      "strict": false
     }
   ]
 }

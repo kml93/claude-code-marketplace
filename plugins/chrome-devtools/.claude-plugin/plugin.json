@@ -1,8 +1,8 @@
 {
-  "name": "chrome-devtools",
-  "version": "1.0.0",
-  "description": "Chrome DevTools MCP Server wrapper for browser automation, debugging, and performance analysis",
+  "name": "Chrome-DevTools",
+  "version": "0.15.0",
+  "description": "MCP server for Chrome DevTools",
   "author": {
-    "name": "Jacky Daniel's"
+    "name": "Google LLC"
   }
 }

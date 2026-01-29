@@ -9,6 +9,7 @@ Personal marketplace of MCP servers for Claude Code.
 Wrapper for the Chrome DevTools MCP Server providing browser automation, debugging, and performance analysis tools.
 
 **Features:**
+
 - Browser automation (navigate, click, fill forms)
 - Screenshots and PDF generation
 - Console logs and network monitoring
@@ -16,6 +17,7 @@ Wrapper for the Chrome DevTools MCP Server providing browser automation, debuggi
 - Device emulation
 
 **Configuration:**
+
 - Port: 9222 (Chrome DevTools Protocol)
 - Telemetry: Disabled (`--no-usage-statistics`)
 
