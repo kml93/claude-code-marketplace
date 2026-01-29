@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "Chrome-DevTools": {
+      "type": "stdio",
+      "command": "bunx",
+      "args": [
+        "-y",
+        "chrome-devtools-mcp@latest",
+        "--no-usage-statistics",
+        "--browser-url=http://127.0.0.1:9222"
+      ]
+    }
+  }
+}

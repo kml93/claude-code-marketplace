@@ -1,0 +1,13 @@
+{
+  "name": "jackydanielsky",
+  "owner": {
+    "name": "Jacky Daniel's"
+  },
+  "plugins": [
+    {
+      "name": "chrome-devtools",
+      "source": "./plugins/chrome-devtools",
+      "description": "Chrome DevTools MCP Server - Browser automation and debugging tools"
+    }
+  ]
+}
