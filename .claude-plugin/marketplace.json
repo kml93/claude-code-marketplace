@@ -4,6 +4,9 @@
   "owner": {
     "name": "Jacky Daniel's"
   },
+  "metadata": {
+    "description": "Marketplace for Jacky Daniel's plugins"
+  },
   "plugins": [
     {
       "name": "Chrome-DevTools",
@@ -15,6 +18,16 @@
       },
       "category": "development",
       "strict": false
+    },
+    {
+      "name": "Gemini-Design",
+      "description": "MCP server that uses Gemini 3 Pro for frontend/design code generation",
+      "source": {
+        "source": "github",
+        "repo": "kml93/gemini-design-mcp"
+      },
+      "version": "3.12.12",
+      "category": "productivity"
     }
   ]
 }
