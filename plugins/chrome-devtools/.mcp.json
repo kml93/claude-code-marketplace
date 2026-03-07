@@ -4,7 +4,7 @@
       "type": "stdio",
       "command": "bun",
       "args": [
-        "/home/kml93/.config/claude/plugins/marketplaces/jackydanielsky/plugins/chrome-devtools/mcp_proxy.js"
+        "${CLAUDE_PLUGIN_ROOT}/mcp_proxy.js"
       ]
     }
   }

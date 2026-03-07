@@ -27,10 +27,13 @@ rl.on('line', (line) => {
         name: t.name.replace(/\./g, '_') 
       }));
     }
+    // Règle très stricte du protocole MCP: stdout ne doit contenir que du JSON pur.
     process.stdout.write(JSON.stringify(msg) + '\n');
   } catch (e) {
-    // Si ce n'est pas du JSON ou une erreur de parsing, on laisse passer le flux tel quel
-    process.stdout.write(line + '\n');
+    // Fail Fast critique : Chrome-devtools écrit des strings brutes sur sa sortie. 
+    // Si on les transmet via process.stdout, ça corromp le protocole stdio. 
+    // On les redirige silencieusement vers stderr.
+    process.stderr.write(line + '\n');
   }
 });
 
