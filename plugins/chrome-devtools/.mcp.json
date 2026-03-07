@@ -2,7 +2,7 @@
   "mcpServers": {
     "Chrome-DevTools": {
       "type": "stdio",
-      "command": "node",
+      "command": "bun",
       "args": [
         "mcp_proxy.js"
       ]
