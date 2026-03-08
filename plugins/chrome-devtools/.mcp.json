@@ -1,6 +1,6 @@
 {
   "mcpServers": {
-    "CD": {
+    "ChromeDevTools": {
       "type": "stdio",
       "command": "bunx",
       "args": [

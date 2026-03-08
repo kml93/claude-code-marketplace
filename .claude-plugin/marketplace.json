@@ -9,7 +9,7 @@
   },
   "plugins": [
     {
-      "name": "CD",
+      "name": "ChromeDevTools",
       "description": "MCP server for Chrome DevTools",
       "source": "./plugins/chrome-devtools",
       "version": "0.15.0",
