@@ -1,10 +1,13 @@
 {
   "mcpServers": {
-    "Chrome-DevTools": {
+    "CD": {
       "type": "stdio",
-      "command": "bun",
+      "command": "bunx",
       "args": [
-        "${CLAUDE_PLUGIN_ROOT}/mcp_proxy.js"
+        "-y",
+        "chrome-devtools-mcp@latest",
+        "--no-usage-statistics",
+        "--browser-url=http://127.0.0.1:9222"
       ]
     }
   }
